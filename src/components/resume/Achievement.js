@@ -1,68 +1,63 @@
-import React from "react";
-import { motion } from "framer-motion";
-import ResumeCard from "./ResumeCard";
+import React from 'react'
+import AchievementCards from './AchievementCards';
 
 const Achievement = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+    <section
+      id="projects"
+      className="w-full py-20 border-b-[1px] border-b-white"
     >
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-        </div>
+      <div className="flex justify-center items-center text-center">
       </div>
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
-        </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <AchievementCards
+          title="Introduction to C"
+          des="Offered by Sololearn"
+          src="/csolo.png"
+        />
+        <AchievementCards
+          title="Cloud Foundations"
+          des="Offered by Great Learning Academy"
+          src="/clougl.png"
+        />
+        <AchievementCards
+          title="Introduction to CSS"
+          des="Offered by Sololearn"
+          src="/csssolo.png"
+        />
+        <AchievementCards
+          title="Introduction to HTML"
+          des="Offered by Sololearn"
+          src="/htmlsolo.png"
+        />
+        <AchievementCards
+          title="PHP"
+          des="Offered by Sololearn"
+          src="/phpsolo.png"
+        />
+        <AchievementCards
+          title="Introduction to Python"
+          des="Offered by Sololearn"
+          src="/pythonsolo.png"
+        />
+            <AchievementCards
+          title="Python Data Structures"
+          des="Offered by Sololearn"
+          src="/pythondssolo.png"
+        />
+            <AchievementCards
+          title="Python for Beginners"
+          des="Offered by University of Moratuwa Distance Learning Platform"
+          src="/pythonuom.png"
+        />
+            <AchievementCards
+          title="Introduction to SQL"
+          des="Offered by Sololearn"
+          src="/sqlsolo.png"
+        />
       </div>
-    </motion.div>
+    </section>
   );
-};
+}
 
-export default Achievement;
+export default Achievement

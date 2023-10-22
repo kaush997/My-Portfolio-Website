@@ -7,57 +7,95 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       <div>
-       { /*<div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
-  </div> */}
+       <div className="flex flex-col gap-4">
+          <p className="text-sm text-wite tracking-[4px]">Subjects Covered</p>
+          <h2 className="text-4xl font-bold"> </h2>
+  </div> 
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title=""
+            subTitle=""
+            result=""
+            des="1. Fundamentals of Information Systems"
+            des1="2. Structured Programming Techniques"
+            des2="3. Information Systems Theory & Practice"
+            des3="4. Information System Infrastructure"
+            des4="5. Fundamentals of Mathematics"
+            des5="6. Statistics & Probability Theory"
+
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title=""
+            subTitle=""
+            result=""
+            des="7. Object Oriented Programming"
+            des1="8. Database Systems"
+            des2="9. Emerging Technologies for Information Systems"
+            des3="10. Advanced Mathematics "
+            des4="11. Analysis of Algorithms"
+            des5="12. Human Computer Interaction"
+           
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title=""
+            subTitle=""
+            result=""
+            des="13. Personal Productivity with IS technology "
+            des1="14. Software Project Management"
+            des2="15. Object Oriented Analysis & Design"
+            des3="16. Platform Technologies "
+            des4="17. System Analysis & Design"
+            des5="18. Information Assurance & Security"
+            des6="19. Social and Professional Issues "
+          
           />
         </div>
       </div>
       <div>
-        {/*<div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
-</div>*/}
+        <div className="flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]"></p>
+          <h2 className="text-4xl font-bold"> </h2>
+</div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title=""
+            subTitle=""
+            result=""
+            des="20. System Administration & Maintenance"
+            des1="21. Operating System Concepts"
+            des2="22. System Integration & Architecture"
+            des3="23. IS Risk Management"
+            des4="24. IT Governance"
+            des5="25. Business Intelligence"
+            des6="26. Web Technologies"
+           
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title=""
+            subTitle=""
+            result=""
+            des="27. Rapid Application Development"
+            des1="28. Electronic Business Strategy, Architectur & Design"
+            des2="29. Enterprise Architecture"
+            des3="30. Management Information Systems"
+            des4="31. IT Auditing"
+            des5="32. Entrepreneurship and Innovation"
+         
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title=""
+            subTitle=""
+            result=""
+            des="33. Software Engineering "
+            des1="34. Geographical Information Systems"
+            des2="35. Advanced Database Systems"
+            des3="36. Software Quality Assurance"
+            des4="36. Software Quality Assurance"
+            des5="37. Design Patterns and Applications"
+          
           />
         </div>
       </div>
