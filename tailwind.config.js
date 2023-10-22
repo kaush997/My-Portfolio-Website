@@ -21,7 +21,7 @@ module.exports = {
         bodyColor: "#256d85",
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#002b58",
+        designColor: "#002b5b",
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",

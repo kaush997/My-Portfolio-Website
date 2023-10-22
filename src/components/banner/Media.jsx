@@ -10,13 +10,13 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <a href='https://www.facebook.com/sanduni.kaushalya.31?mibextid=ZbWKwL'><FaFacebookF /></a>
             </span>
             <span className="bannerIcon">
-              <FaGithub />
+              <a href='https://github.com/kaush997'><FaGithub /></a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+              <a href='https://www.linkedin.com/in/kaushalya-hulathdoowage-994248245'><FaLinkedinIn /></a>
             </span>
           </div>
         </div>

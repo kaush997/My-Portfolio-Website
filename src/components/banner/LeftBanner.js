@@ -22,7 +22,7 @@ const LeftBanner = () => {
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
-            cursorColor="#ff014f"
+            cursorColor="#002b5b"
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">

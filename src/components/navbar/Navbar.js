@@ -9,7 +9,7 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-white-600">
       <div>
         <img className='h-22 w-auto' src={logo} alt="logo" />
       </div>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base font-bold text-white-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
               <Link
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I'm all ears for your feedback, and if my skills align with your needs, feel free to get in touch. Let's make things happen!
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
