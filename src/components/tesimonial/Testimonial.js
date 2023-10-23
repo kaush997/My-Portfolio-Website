@@ -2,7 +2,19 @@ import React,{useState} from 'react'
 import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title'
-import { testimonialOne,testimonialTwo,testimonialThree,testimonialFour,testimonialFive, testimonialSix,testimonialSeven,testimonialEight,testimonialTen,testimonialNine,testimonialEleven,testimonialTwelve,testimonial13,testimonial14, } from "../../assets";
+import { testimonialOne,testimonialTwo,testimonialThree,testimonialFour,testimonialFive, testimonialSix,testimonialSeven,testimonialEight,testimonialTen,testimonialNine,testimonialEleven,testimonialTwelve,testimonial13,testimonial14,testimonial15,
+  testimonial16,
+  testimonial17,
+  testimonial18,
+  testimonial19,
+  testimonial20,
+  testimonial21,
+  testimonial22,
+  testimonial23,
+  testimonial24,
+  testimonial25,
+  testimonial26,
+} from "../../assets";
 
 
 function SampleNextArrow(props) {
@@ -168,7 +180,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* ================ Slider Two ================== */}
+          {/* ================ Slider Four ================== */}
           <div className="w-full mt-20">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -192,7 +204,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* ================ Slider Two ================== */}
+          {/* ================ Slider five ================== */}
           <div className="w-full mt-20">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -216,7 +228,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* ================ Slider Two ================== */}
+          {/* ================ Slider six ================== */}
           <div className="w-full mt-20">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -240,7 +252,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* ================ Slider Two ================== */}
+          {/* ================ Slider seven ================== */}
           <div className="w-full mt-20">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -258,6 +270,150 @@ const Testimonial = () => {
                   className="h-full w-full rounded-lg object-cover"
                   src={testimonial14}
                   alt="testimonial14"
+                />
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider 8 ================== */}
+          <div className="w-full mt-20">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial15}
+                  alt="testimonial15"
+                />
+                
+              </div>
+              <div className="w-full lgl:w-[45%] h-full flex flex-col justify-between">
+               
+              <div className="w-full lgl:w-[100%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial16}
+                  alt="testimonial16"
+                />
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider 9 ================== */}
+          <div className="w-full mt-20">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial17}
+                  alt="testimonial17"
+                />
+                
+              </div>
+              <div className="w-full lgl:w-[45%] h-full flex flex-col justify-between">
+               
+              <div className="w-full lgl:w-[100%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial18}
+                  alt="testimonial18"
+                />
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider 10 ================== */}
+          <div className="w-full mt-20">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial19}
+                  alt="testimonial19"
+                />
+                
+              </div>
+              <div className="w-full lgl:w-[45%] h-full flex flex-col justify-between">
+               
+              <div className="w-full lgl:w-[100%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial20}
+                  alt="testimonial20"
+                />
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider 11 ================== */}
+          <div className="w-full mt-20">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial21}
+                  alt="testimonial21"
+                />
+                
+              </div>
+              <div className="w-full lgl:w-[45%] h-full flex flex-col justify-between">
+               
+              <div className="w-full lgl:w-[100%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial22}
+                  alt="testimonial22"
+                />
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider 12 ================== */}
+          <div className="w-full mt-20">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial23}
+                  alt="testimonial23"
+                />
+                
+              </div>
+              <div className="w-full lgl:w-[45%] h-full flex flex-col justify-between">
+               
+              <div className="w-full lgl:w-[100%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial24}
+                  alt="testimonial24"
+                />
+                
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* ================ Slider 13 ================== */}
+          <div className="w-full mt-20">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[45%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial25}
+                  alt="testimonial25"
+                />
+                
+              </div>
+              <div className="w-full lgl:w-[45%] h-full flex flex-col justify-between">
+               
+              <div className="w-full lgl:w-[100%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg  flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={testimonial26}
+                  alt="testimonial26"
                 />
                 
               </div>

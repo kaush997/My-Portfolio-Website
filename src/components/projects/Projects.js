@@ -11,43 +11,43 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="Projects"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Criminal Identification System"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="My Personal Portfolio"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
         />
         <ProjectsCard
-          title="Chatting App"
+          title="Online Clothe Odering System"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Simple Calculator"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Gift Odering System"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
         />
         <ProjectsCard
-          title="Chatting App"
+          title="Simple Quiz App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
