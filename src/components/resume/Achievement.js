@@ -5,7 +5,7 @@ const Achievement = () => {
   return (
     <section
       id="projects"
-      className="w-full py-20 border-b-[1px] border-b-white"
+      className="w-full py-20 "
     >
       <div className="flex justify-center items-center text-center">
       </div>
