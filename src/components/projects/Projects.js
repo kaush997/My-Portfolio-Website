@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,project4 } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,project4,project5 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -38,15 +38,11 @@ const Projects = () => {
           src={project4}
         />
         <ProjectsCard
-          title="Gift Odering System"
-          des="This is a online gift odering system s"
-          src={projectOne}
+          title="Interview Question Bank"
+          des="This website was created using ReactJS and contains a collection of simple interview questions for four programming languages, namely PHP, Python, Java, and MySQL. "
+          src={project5}
         />
-        <ProjectsCard
-          title="Simple Quiz App"
-          des=" "
-          src={projectTwo}
-        />
+       
       </div>
     </section>
   );

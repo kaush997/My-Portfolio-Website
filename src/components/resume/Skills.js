@@ -17,15 +17,15 @@ const Skills = () => {
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Canva</p>
+            <p className="text-sm uppercase font-medium">VScode</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[70%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">90%</span>
+                <span className="absolute -top-7 right-0">70%</span>
               </motion.span>
             </span>
           </div>
@@ -36,9 +36,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[80%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">80%</span>
+                <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
             </span>
           </div>
@@ -49,9 +49,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[80%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[70%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">80%</span>
+                <span className="absolute -top-7 right-0">70%</span>
               </motion.span>
             </span>
           </div>
@@ -62,22 +62,22 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[40%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">50%</span>
+                <span className="absolute -top-7 right-0">40%</span>
               </motion.span>
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">VScode</p>
+            <p className="text-sm uppercase font-medium">PyCharm</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[100%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">100%</span>
+                <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
             </span>
           </div>
@@ -112,9 +112,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[45%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">45%</span>
               </motion.span>
             </span>
           </div>
@@ -125,9 +125,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[65%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">65%</span>
+                <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
             </span>
           </div>
@@ -138,9 +138,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[40%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">50%</span>
+                <span className="absolute -top-7 right-0">40%</span>
               </motion.span>
             </span>
           </div>
@@ -151,9 +151,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[55%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
+                className="w-[45%] h-full bg-gradient-to-r from-blue-500 via-blue-600 to-green-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">55%</span>
+                <span className="absolute -top-7 right-0">45%</span>
               </motion.span>
             </span>
           </div>
