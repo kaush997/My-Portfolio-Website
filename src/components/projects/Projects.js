@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,project4 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -23,7 +23,8 @@ const Projects = () => {
         />
         <ProjectsCard
           title="My Personal Portfolio"
-          des=" This is my personal portfolio that I created using ReactJS and Thailwind CSS to provide my services online."
+          des=" This is my personal portfolio that I created using ReactJS and Thailwind CSS to provide my services online.
+          And also this is a mobile responsive project."
           src={projectTwo}
         />
         <ProjectsCard
@@ -32,9 +33,9 @@ const Projects = () => {
           src={projectThree}
         />
         <ProjectsCard
-          title="Simple Calculator"
-          des=" This is my individual project. I created a calculator that can perform simple calculations using HTML, CSS, and JavaScript."
-          src={projectThree}
+          title="Simple Login Pages"
+          des="I created this project using ReactJS and CSS. This project includes simple login, reset password, fogot password, 4 digit code pages."
+          src={project4}
         />
         <ProjectsCard
           title="Gift Odering System"
