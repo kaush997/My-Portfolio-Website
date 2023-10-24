@@ -18,38 +18,32 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Criminal Identification System"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection."
           src={projectOne}
         />
         <ProjectsCard
           title="My Personal Portfolio"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" This is my personal portfolio that I created using ReactJS and Thailwind CSS to provide my services online."
           src={projectTwo}
         />
         <ProjectsCard
           title="Online Clothe Odering System"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" This is a group project that I worked on. We created an e-commerce website using HTML, CSS, and PHP. I designed the front-end part of the website using HTML and CSS. The website we developed is an online clothing ordering system."
           src={projectThree}
         />
         <ProjectsCard
           title="Simple Calculator"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" This is my individual project. I created a calculator that can perform simple calculations using HTML, CSS, and JavaScript."
           src={projectThree}
         />
         <ProjectsCard
           title="Gift Odering System"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="This is a online gift odering system s"
           src={projectOne}
         />
         <ProjectsCard
           title="Simple Quiz App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" "
           src={projectTwo}
         />
       </div>
