@@ -12,7 +12,7 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4 ">
-          <p className="text-sm text-designColor tracking-[4px]">2012 - 2023</p>
+         <p className="text-sm text-designColor tracking-[4px]">2012 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -20,7 +20,7 @@ const Education = () => {
             title="BSc (Hons) in Computing & Information Systems"
             subTitle="Sabaragamuwa University of Sri Lanka (2020 - Present)"
             //result=""
-            des="The current semester is the 3rd year, 2nd semester"
+            des="I am currently learning on 3rd year 2nd semester. I have completed 5 semesters of the program and I completed 37 subjects according to this degree program."
           />
           <ResumeCard
             title="GCE Advanced Level"
@@ -48,6 +48,7 @@ const Education = () => {
             des8="Dancing - B"
 
           />
+          
         </div>
       </div>
       {/* part Two */}
@@ -62,20 +63,22 @@ const Education = () => {
             title="Diploma in Business English"
             subTitle="IUHS Campus Nugegoda (Jan 2022 - July 2022)"
             //result=""
-            des="I have successfully fulfilled the assessment requirements"
-            des1="and improved my English communication skills as well as my presentation skills."
+            des="I have successfully fulfilled the assessment requirements
+           and improved my English communication skills as well as my presentation skills."
           />
           <ResumeCard
-            title=""
-            subTitle=""
+            title="Section First - Combined Mathematics"
+            subTitle="Mahinda Rajapaksha College (2014)"
             //result=""
-            des=""
+            des="In my school's annual prize giving ceremony, I received an award for scoring 
+            the highest marks in Combined Mathematics for the entire year's 3 semester examinations."
           />
           <ResumeCard
-            title=""
-            subTitle=""
+            title="Section First - General Information Technology"
+            subTitle="Mahinda Rajapaksha College (2014)"
            // result=""
-            des=""
+            des="In my school's annual prize giving ceremony, I received an award for scoring the highest marks in 
+            General Information Technology for the entire year's 3 semester examinations."
           />
         </div>
       </div>
