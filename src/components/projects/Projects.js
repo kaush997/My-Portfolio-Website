@@ -3,6 +3,7 @@ import Title from '../layouts/Title'
 import { projectOne, projectTwo, projectThree,project4,project5 } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
+
 const Projects = () => {
   return (
     <section
@@ -21,6 +22,7 @@ const Projects = () => {
           des="This is a group project that I worked on. I designed the UI/UX using Figma and implemented the front-end development using ReactJS. The website we developed is capable of identifying criminals and suspects using face detection."
           src={projectOne}
         />
+        
         <ProjectsCard
           title="My Personal Portfolio"
           des=" This is my personal portfolio that I created using ReactJS and Thailwind CSS to provide my services online.

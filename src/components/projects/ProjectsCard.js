@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsGithub } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
+/*import { FaGlobe } from "react-icons/fa";*/
 
 const ProjectsCard = ({ title, des, src }) => {
   return (
@@ -20,11 +20,11 @@ const ProjectsCard = ({ title, des, src }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <BsGithub />
+                <a href='https://github.com/kaush997'><BsGithub /></a>
               </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+             { /*<span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <FaGlobe />
-              </span>
+  </span>*/}
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
