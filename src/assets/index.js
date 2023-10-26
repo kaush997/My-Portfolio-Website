@@ -44,6 +44,7 @@ import pythonsolo from "./images/projects/pythonsolo.png";
 import pythonuom from "./images/projects/pythonuom.png";
 
 
+
 export {
   logo,
   bannerImg,
@@ -89,6 +90,7 @@ export {
   pythonsolo,
   pythonuom,
   sqlsolo,
+
 
 
 };
