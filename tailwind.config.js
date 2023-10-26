@@ -18,14 +18,14 @@ module.exports = {
         titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
-        bodyColor: "#256d85",
-        lightText: "#c4cfde",
+        bodyColor: "#002b5b",
+        lightText: "#dae0e8",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#002b5b",
+        designColor: "#7ccbfc",
         hovColor: "#1e90ff",
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+        shadowOne: "10px 10px 19px #2d3033, -10px -10px 19px #43484d",
       },
     },
   },

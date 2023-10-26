@@ -5,6 +5,7 @@ import projectTwo from "./images/projects/projectTwo.png";
 import projectThree from "./images/projects/projectThree.png";
 import project4 from "./images/projects/project4.png";
 import project5 from "./images/projects/project5.png";
+import clougl from "./images/projects/clougl.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import testimonialThree from "./images/testmonial/testimonialThree.png";
@@ -33,6 +34,14 @@ import testimonial25 from "./images/testmonial/testimonial25.png";
 import testimonial26 from "./images/testmonial/testimonial26.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import sqlsolo from "./images/projects/sqlsolo.png";
+import csolo from "./images/projects/csolo.png";
+import csssolo from "./images/projects/csssolo.png";
+import htmlsolo from "./images/projects/htmlsolo.png";
+import phpsolo from "./images/projects/phpsolo.png";
+import pythondssolo from "./images/projects/pythondssolo.png";
+import pythonsolo from "./images/projects/pythonsolo.png";
+import pythonuom from "./images/projects/pythonuom.png";
 
 
 export {
@@ -71,5 +80,15 @@ export {
   testimonial24,
   testimonial26,
   testimonial25,
+  clougl,
+  csolo,
+  csssolo,
+  htmlsolo,
+  phpsolo,
+  pythondssolo,
+  pythonsolo,
+  pythonuom,
+  sqlsolo,
+
 
 };

@@ -1,5 +1,6 @@
 import React from 'react'
 import AchievementCards from './AchievementCards';
+import { clougl,csolo,csssolo,htmlsolo,phpsolo,pythondssolo,pythonsolo,pythonuom,sqlsolo, } from "../../assets/index";
 
 const Achievement = () => {
   return (
@@ -13,47 +14,47 @@ const Achievement = () => {
         <AchievementCards
           title="Introduction to C"
           des="Offered by Sololearn"
-          src="/csolo.png"
+          src={csolo}
         />
         <AchievementCards
           title="Cloud Foundations"
           des="Offered by Great Learning Academy"
-          src="/clougl.png"
+          src={clougl}
         />
         <AchievementCards
           title="Introduction to CSS"
           des="Offered by Sololearn"
-          src="/csssolo.png"
+          src={csssolo}
         />
         <AchievementCards
           title="Introduction to HTML"
           des="Offered by Sololearn"
-          src="/htmlsolo.png"
+          src={htmlsolo}
         />
         <AchievementCards
           title="PHP"
           des="Offered by Sololearn"
-          src="/phpsolo.png"
+          src={phpsolo}
         />
         <AchievementCards
           title="Introduction to Python"
           des="Offered by Sololearn"
-          src="/pythonsolo.png"
+          src={pythonsolo}
         />
             <AchievementCards
           title="Python Data Structures"
           des="Offered by Sololearn"
-          src="/pythondssolo.png"
+          src={pythondssolo}
         />
             <AchievementCards
           title="Python for Beginners"
           des="Offered by University of Moratuwa Distance Learning Platform"
-          src="/pythonuom.png"
+          src={pythonuom}
         />
             <AchievementCards
           title="Introduction to SQL"
           des="Offered by Sololearn"
-          src="/sqlsolo.png"
+          src={sqlsolo}
         />
       </div>
     </section>
