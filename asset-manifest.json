@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-Website/static/css/main.ac9c8d9c.css",
-    "main.js": "/My-Portfolio-Website/static/js/main.afb2b10d.js",
+    "main.css": "/My-Portfolio-Website/static/css/main.46abb664.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.3dc8d3ef.js",
     "static/media/testimonialFour.png": "/My-Portfolio-Website/static/media/testimonialFour.d1fe511115e6549370f1.png",
     "static/media/testimonialEleven.png": "/My-Portfolio-Website/static/media/testimonialEleven.a5a876da3a6fd87b8e3c.png",
     "static/media/testimonial19.png": "/My-Portfolio-Website/static/media/testimonial19.480cd42b4f83f327a003.png",
@@ -45,11 +45,11 @@
     "static/media/testimonial25.png": "/My-Portfolio-Website/static/media/testimonial25.ae98da3588c492c80c34.png",
     "static/media/testimonialOne.png": "/My-Portfolio-Website/static/media/testimonialOne.31047c01005fbd22323e.png",
     "index.html": "/My-Portfolio-Website/index.html",
-    "main.ac9c8d9c.css.map": "/My-Portfolio-Website/static/css/main.ac9c8d9c.css.map",
-    "main.afb2b10d.js.map": "/My-Portfolio-Website/static/js/main.afb2b10d.js.map"
+    "main.46abb664.css.map": "/My-Portfolio-Website/static/css/main.46abb664.css.map",
+    "main.3dc8d3ef.js.map": "/My-Portfolio-Website/static/js/main.3dc8d3ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac9c8d9c.css",
-    "static/js/main.afb2b10d.js"
+    "static/css/main.46abb664.css",
+    "static/js/main.3dc8d3ef.js"
   ]
 }
