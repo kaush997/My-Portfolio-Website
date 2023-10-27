@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import DownloadButton from './Download';
+import { FaFacebookF, FaLinkedinIn,FaReact, FaGithub } from "react-icons/fa";
+import { SiFigma, SiPython } from "react-icons/si";
 
 const Media = () => {
   return (
@@ -21,12 +21,22 @@ const Media = () => {
             </span>
           </div>
         </div>
-        <div>
+       
+          <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-           
+           SKILLS
           </h2>
           <div className="flex gap-4">
-          <DownloadButton />
+            <span className="bannerIcon">
+              <FaReact />
+            </span>
+            <span className="bannerIcon">
+              <SiPython />
+            </span>
+        
+            <span className="bannerIcon">
+              <SiFigma />
+            </span>
           </div>
         </div>
       </div>
