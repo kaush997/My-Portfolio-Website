@@ -4,7 +4,7 @@ const FooterBottom = () => {
   return (
     <div className="w-full py-10">
       <p className="text-center text-white-500 text-base">
-        Designed by Kaushalya || All right reserved.
+        Designed by Kaushalya || All rights reserved.
       </p>
     </div>
   );
