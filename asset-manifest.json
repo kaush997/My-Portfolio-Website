@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-Website/static/css/main.3d3af886.css",
-    "main.js": "/My-Portfolio-Website/static/js/main.64f0e699.js",
+    "main.css": "/My-Portfolio-Website/static/css/main.594ca22b.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.2b451724.js",
     "static/media/testimonialFour.png": "/My-Portfolio-Website/static/media/testimonialFour.d1fe511115e6549370f1.png",
     "static/media/testimonialEleven.png": "/My-Portfolio-Website/static/media/testimonialEleven.a5a876da3a6fd87b8e3c.png",
     "static/media/testimonial19.png": "/My-Portfolio-Website/static/media/testimonial19.480cd42b4f83f327a003.png",
@@ -12,11 +12,10 @@
     "static/media/projectOne.png": "/My-Portfolio-Website/static/media/projectOne.fbda3c1453a6593cbbbe.png",
     "static/media/testimonial20.png": "/My-Portfolio-Website/static/media/testimonial20.8d94be76db534b764db5.png",
     "static/media/testimonial14.png": "/My-Portfolio-Website/static/media/testimonial14.e19b4f928ffc9f4e62f8.png",
-    "static/media/projectTwo.png": "/My-Portfolio-Website/static/media/projectTwo.f4e16d09cba652630ce3.png",
     "static/media/project5.png": "/My-Portfolio-Website/static/media/project5.4c992c3612b466106144.png",
+    "static/media/bannerImg.png": "/My-Portfolio-Website/static/media/bannerImg.a4a14843cc8ee6a1f856.png",
     "static/media/contactImg.png": "/My-Portfolio-Website/static/media/contactImg.945a848920b7cb417557.png",
     "static/media/pythonuom.png": "/My-Portfolio-Website/static/media/pythonuom.659f591c649e30516ed8.png",
-    "static/media/bannerImg.png": "/My-Portfolio-Website/static/media/bannerImg.187db4aef708609f049c.png",
     "static/media/pythondssolo.png": "/My-Portfolio-Website/static/media/pythondssolo.78309196c2af4ce418a6.png",
     "static/media/phpsolo.png": "/My-Portfolio-Website/static/media/phpsolo.f1b69843cb26af08f411.png",
     "static/media/clougl.png": "/My-Portfolio-Website/static/media/clougl.3673cdec26e2bbbdf69a.png",
@@ -26,6 +25,7 @@
     "static/media/testimonial15.png": "/My-Portfolio-Website/static/media/testimonial15.6abc1d84b14570222940.png",
     "static/media/testimonialFive.png": "/My-Portfolio-Website/static/media/testimonialFive.9a1eceb008dc46118df6.png",
     "static/media/testimonialSeven.png": "/My-Portfolio-Website/static/media/testimonialSeven.05f1fbec1749d7c67e7f.png",
+    "static/media/projectTwo.png": "/My-Portfolio-Website/static/media/projectTwo.67ee8f1d9241b84fb8db.png",
     "static/media/pythonsolo.png": "/My-Portfolio-Website/static/media/pythonsolo.33e58eb14f5281d671f5.png",
     "static/media/htmlsolo.png": "/My-Portfolio-Website/static/media/htmlsolo.e55161b3c0f839efc0ad.png",
     "static/media/sqlsolo.png": "/My-Portfolio-Website/static/media/sqlsolo.957917c023e9e4109905.png",
@@ -45,11 +45,11 @@
     "static/media/testimonial25.png": "/My-Portfolio-Website/static/media/testimonial25.ae98da3588c492c80c34.png",
     "static/media/testimonialOne.png": "/My-Portfolio-Website/static/media/testimonialOne.31047c01005fbd22323e.png",
     "index.html": "/My-Portfolio-Website/index.html",
-    "main.3d3af886.css.map": "/My-Portfolio-Website/static/css/main.3d3af886.css.map",
-    "main.64f0e699.js.map": "/My-Portfolio-Website/static/js/main.64f0e699.js.map"
+    "main.594ca22b.css.map": "/My-Portfolio-Website/static/css/main.594ca22b.css.map",
+    "main.2b451724.js.map": "/My-Portfolio-Website/static/js/main.2b451724.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d3af886.css",
-    "static/js/main.64f0e699.js"
+    "static/css/main.594ca22b.css",
+    "static/js/main.2b451724.js"
   ]
 }
