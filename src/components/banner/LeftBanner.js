@@ -25,7 +25,7 @@ const LeftBanner = () => {
             cursorColor="#9b9b9e"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
+        <p className="text-base font-bodyFont leading-6 tracking-wide ">
           I am eager to build a strong foundation in Software Engineering, Machine Learning, and Data Science. My goal is to shape the future of the IT industry through innovation and continuous learning.
           Join me on this exciting journey, and let's explore the vast possibilities of the digital world together. 
         </p>
