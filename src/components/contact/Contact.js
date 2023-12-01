@@ -37,7 +37,7 @@ const Contact = () => {
         subject,
         message,
       }, 'OD9pejxwC-m7JlOlu')
-      .then((response) => {
+      .then((_response) => {
         setSuccessMsg(`Thank you, ${username}, your message has been sent successfully!`);
         setErrMsg('');
         setUsername('');
