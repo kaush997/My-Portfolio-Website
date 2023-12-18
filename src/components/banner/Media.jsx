@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaLinkedinIn,FaReact, FaGithub } from "react-icons/fa";
-import { SiFigma, SiPython } from "react-icons/si";
+import { SiJava, SiJavascript, } from "react-icons/si";
 
 const Media = () => {
   return (
@@ -31,11 +31,11 @@ const Media = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiPython />
+              <SiJava />
             </span>
         
             <span className="bannerIcon">
-              <SiFigma />
+              <SiJavascript />
             </span>
           </div>
         </div>

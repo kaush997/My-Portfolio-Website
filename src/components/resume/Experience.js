@@ -93,7 +93,6 @@ const Experience = () => {
             des1="34. Geographical Information Systems"
             des2="35. Advanced Database Systems"
             des3="36. Software Quality Assurance"
-            des4="36. Software Quality Assurance"
             des5="37. Design Patterns and Applications"
           
           />
