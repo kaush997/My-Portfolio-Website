@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          A passionate frontend developer and React.js enthusiast. Here, you'll find a collection of my journeys in crafting seamless and delightful digital experiences. With a knack for turning ideas into interactive realities, I specialize in building user-friendly web applications that leave a lasting impression. Whether you're here to explore my projects, discover the latest in frontend tech, or discuss potential collaborations, I'm thrilled to have you on board. Let's embark on a coding adventure together!
+        Self-motivated and adaptable professional with a strong track record in navigating diverse technology stacks. Thrives in problem-solving and interpersonal skills, excelling under pressure. Enthusiastically embraces new challenges, always seeking opportunities for learning and growth.
         </p>
       </div>
      {/* Media */}

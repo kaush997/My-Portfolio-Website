@@ -11,23 +11,16 @@ const Experience = () => {
     >
       <div>
        <div className="flex flex-col gap-4">
-          <p className="text-xl mt-10 text-wite tracking-[4px]">Subjects Covered</p>
+          <p className="text-xl mt-10 text-wite tracking-[4px]">Experience</p>
           <h2 className="text-4xl font-bold"> </h2>
   </div> 
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[200px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title=""
-            subTitle=""
-            result=""
-            des="1. Fundamentals of Information Systems"
-            des1="2. Structured Programming Techniques"
-            des2="3. Information Systems Theory & Practice"
-            des3="4. Information System Infrastructure"
-            des4="5. Fundamentals of Mathematics"
-            des5="6. Statistics & Probability Theory"
-
+            title="John Keells Holdings PLC"
+            subTitle1="Assistant Head Cashier"
+            subTitle2="Human Resource Assistant"
           />
-          <ResumeCard
+         {/* <ResumeCard
             title=""
             subTitle=""
             result=""
@@ -51,7 +44,7 @@ const Experience = () => {
             des5="18. Information Assurance & Security"
             des6="19. Social and Professional Issues "
           
-          />
+  />*/}
         </div>
       </div>
       <div>
@@ -59,7 +52,7 @@ const Experience = () => {
           <p className="text-sm text-designColor tracking-[4px]"></p>
           <h2 className="text-4xl font-bold"> </h2>
 </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        {/*<div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title=""
             subTitle=""
@@ -96,7 +89,7 @@ const Experience = () => {
             des5="37. Design Patterns and Applications"
           
           />
-        </div>
+  </div>*/}
       </div>
     </motion.div>
   );
