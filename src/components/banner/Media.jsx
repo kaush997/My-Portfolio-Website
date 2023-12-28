@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn,FaReact, FaGithub } from "react-icons/fa";
-import { SiJava, SiJavascript, } from "react-icons/si";
+import { FaFacebookF, FaLinkedinIn,FaReact, FaGithub, FaPython } from "react-icons/fa";
+import { SiJava, } from "react-icons/si";
 
 const Media = () => {
   return (
@@ -28,14 +28,14 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaReact />
+            <FaPython/>
             </span>
             <span className="bannerIcon">
               <SiJava />
             </span>
         
             <span className="bannerIcon">
-              <SiJavascript />
+            <FaReact />
             </span>
           </div>
         </div>

@@ -13,7 +13,7 @@ const Skills = () => {
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Features
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Development</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Languages & Styles</h2>
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
           <div className="overflow-x-hidden">
@@ -23,9 +23,22 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[70%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+                className="w-[80%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">80%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Python</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[75%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">75%</span>
               </motion.span>
             </span>
           </div>
@@ -62,9 +75,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">50%</span>
+                <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
             </span>
           </div>
@@ -75,9 +88,9 @@ const Skills = () => {
                 initial={{ x: "-100%", opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[50%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+                className="w-[60%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">50%</span>
+                <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
             </span>
           </div>
@@ -107,6 +120,32 @@ const Skills = () => {
               </motion.span>
             </span>
           </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">PHP</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[50%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">50%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">C</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[80%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">80%</span>
+              </motion.span>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -115,7 +154,7 @@ const Skills = () => {
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Features
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Tools & DB</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Tools & DBs</h2>
         </div>
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
@@ -141,6 +180,45 @@ const Skills = () => {
                 className="w-[60%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">60%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">MS PowerBI</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[90%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">90%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">WEKA</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[70%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">70%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">JUPYTER</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[90%] h-full bg-gradient-to-r from-[#ccfbf1] via-[#99f6e4] to-[#5eead4] rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
             </span>
           </div>
