@@ -25,7 +25,7 @@ const Projects = () => {
         
         <ProjectsCard
           title="My Personal Portfolio"
-          des=" This is my personal portfolio that I created using ReactJS and Thailwind CSS to provide my services online.
+          des=" This is my personal portfolio that I created using ReactJS and Tailwind CSS to provide my services online.
           And also this is a mobile responsive project."
           src={projectTwo}
         />
