@@ -1,15 +1,14 @@
-import { AiFillAppstore, AiOutlineAntDesign, AiOutlineGlobal} from "react-icons/ai";
-import { FaFigma, FaMobile, FaPencilAlt, FaReact} from "react-icons/fa";
-import { SiAdobeillustrator, SiAdobeindesign, SiProgress, SiSemanticweb } from "react-icons/si";
+import { AiOutlineGlobal} from "react-icons/ai";
+import { FaFigma, FaMobile, FaPencilAlt,} from "react-icons/fa";
+import { SiAdobeillustrator, SiPowerbi,} from "react-icons/si";
 
 // Features Data
 export const featuresData = [
   {
-    id: 1,
-    icon: <FaReact />,
-    title: "Frontend Development",
-    des: "I transform design concepts into functional, responsive websites, using cutting-edge web technologies to bring your vision to life and deliver a seamless user experience.",
-    
+    id: 3,
+    icon: <AiOutlineGlobal/>,
+    title: "Web Development",
+    des: "Behind the scenes, I build robust and efficient web applications that power your websites and applications. providing a seamless and engaging experience for users on the go.",
   },
   {
     id: 2,
@@ -17,11 +16,13 @@ export const featuresData = [
     title: "Mobile App Development",
     des: "I design and develop mobile applications for iOS and Android, providing a seamless and engaging experience for users on the go.",
   },
+  
   {
-    id: 3,
-    icon: <AiOutlineGlobal/>,
-    title: "Web Development",
-    des: "Behind the scenes, I build robust and efficient web applications that power your websites and applications. providing a seamless and engaging experience for users on the go.",
+    id: 1,
+    icon: <SiPowerbi />,
+    title: "Data Analytics & Visualizations",
+    des: "Proficient in analyzing large datasets and creating compelling visualizations and dashboards for insightful decision-making.",
+    
   },
   {
     id: 4,
