@@ -30,13 +30,13 @@ const Contact = () => {
     } else if (!emailValidation()) {
       setErrMsg('Please enter a valid email address.');
     } else {
-      emailjs.send('service_979tax7', 'template_im146dk', {
+      emailjs.send('service_kk0y27h', 'template_64m0rgg', {
         username,
         phoneNumber,
         email,
         subject,
         message,
-      }, 'OD9pejxwC-m7JlOlu')
+      }, 'tWPE1iRoT6NS56fJ9')
       .then((_response) => {
         setSuccessMsg(`Thank you, ${username}, your message has been sent successfully!`);
         setErrMsg('');
