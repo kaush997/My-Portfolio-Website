@@ -9,9 +9,9 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-white-600">
-      <div>
-        <img className='h-22 w-auto' src={logo} alt="logo" />
+    <div className="w-full h-20 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-white-600">
+      <div className='h-22 w-auto text-3xl'>
+        <h1 className="capitalize font-bold"><span className="text-designColor">S</span><span className=" ">ANDUNI</span></h1>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">

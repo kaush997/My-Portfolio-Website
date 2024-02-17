@@ -1,5 +1,6 @@
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
+import bannerBack from "./images/bannerBack.png";
 import projectOne from "./images/projects/projectOne.png";
 import projectTwo from "./images/projects/projectTwo.png";
 import projectThree from "./images/projects/projectThree.png";
@@ -48,6 +49,7 @@ import pythonuom from "./images/projects/pythonuom.png";
 export {
   logo,
   bannerImg,
+  bannerBack,
   projectOne,
   projectTwo,
   projectThree,

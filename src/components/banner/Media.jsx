@@ -6,7 +6,7 @@ const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-base uppercase font-titleFont mb-4 text-titleCol">
             Find me on
           </h2>
           <div className="flex gap-4">
@@ -22,8 +22,13 @@ const Media = () => {
           </div>
         </div>
        
-          <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+        <div className='mb-4'>
+        <button className="bg-designColor border border-drkCol hover:bg-titleCol text-bodyColor font-bold py-2 px-4 rounded ">
+        <p>Contact &gt;</p>
+        </button>
+
+         {
+         /* <h2 className="text-base uppercase font-titleFont mb-4">
            SKILLS
           </h2>
           <div className="flex gap-4">
@@ -35,9 +40,9 @@ const Media = () => {
             </span>
         
             <span className="bannerIcon">
-            <FaReact />
+            <FaReact/>
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
   )
