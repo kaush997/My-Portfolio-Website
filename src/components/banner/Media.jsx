@@ -1,12 +1,12 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn,FaReact, FaGithub, FaPython } from "react-icons/fa";
-import { SiJava, } from "react-icons/si";
+import { Link } from "react-scroll";
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0  justify-between">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4 text-titleCol">
+          <h2 className="text-base uppercase font-titleFont mb-6 text-titleCol">
             Find me on
           </h2>
           <div className="flex gap-4">
@@ -22,28 +22,20 @@ const Media = () => {
           </div>
         </div>
        
-        <div className='mb-4'>
-        <button className="bg-designColor border border-drkCol hover:bg-titleCol text-bodyColor font-bold py-2 px-4 rounded ">
-        <p>Contact &gt;</p>
-        </button>
-
-         {
-         /* <h2 className="text-base uppercase font-titleFont mb-4">
-           SKILLS
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-            <FaPython/>
-            </span>
-            <span className="bannerIcon">
-              <SiJava />
-            </span>
-        
-            <span className="bannerIcon">
-            <FaReact/>
-            </span>
-          </div> */}
-        </div>
+      <div className='lgl:mt-12 lgl:mr-16'>
+      <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <button className=" bg-designColor border border-drkCol hover:bg-titleCol text-bodyColor font-bold py-2 px-10 rounded ">
+              <p>Contact &gt;</p>
+          </button>
+        </Link>
+      </div>
       </div>
   )
 }
