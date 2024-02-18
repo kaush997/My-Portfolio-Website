@@ -104,7 +104,7 @@ const Testimonial = () => {
       className="w-full py-20 border-b-[1px] border-b-white"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="Arts" des="My Pencil Portraits" />
+        <Title title="" des="Pencil Arts" />
       </div>
       <div className="max-w-6xl mx-auto">
         {/* ================ Slider One ================== */}
