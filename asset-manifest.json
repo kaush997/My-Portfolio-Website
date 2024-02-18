@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-Website/static/css/main.d5b720dc.css",
-    "main.js": "/My-Portfolio-Website/static/js/main.11f0fca6.js",
+    "main.css": "/My-Portfolio-Website/static/css/main.5728b368.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.2f28f687.js",
     "static/media/projectTwo.png": "/My-Portfolio-Website/static/media/projectTwo.ef4c0738729a8b337523.png",
     "static/media/testimonialFour.png": "/My-Portfolio-Website/static/media/testimonialFour.d1fe511115e6549370f1.png",
     "static/media/testimonialEleven.png": "/My-Portfolio-Website/static/media/testimonialEleven.a5a876da3a6fd87b8e3c.png",
@@ -43,13 +43,14 @@
     "static/media/testimonial17.png": "/My-Portfolio-Website/static/media/testimonial17.719721193a7d6aedf12f.png",
     "static/media/testimonial26.png": "/My-Portfolio-Website/static/media/testimonial26.384313cca3bf9ebcb9e0.png",
     "static/media/testimonial25.png": "/My-Portfolio-Website/static/media/testimonial25.ae98da3588c492c80c34.png",
+    "static/media/bannerBack.png": "/My-Portfolio-Website/static/media/bannerBack.a04f6dc3ec5a134f3197.png",
     "static/media/testimonialOne.png": "/My-Portfolio-Website/static/media/testimonialOne.31047c01005fbd22323e.png",
     "index.html": "/My-Portfolio-Website/index.html",
-    "main.d5b720dc.css.map": "/My-Portfolio-Website/static/css/main.d5b720dc.css.map",
-    "main.11f0fca6.js.map": "/My-Portfolio-Website/static/js/main.11f0fca6.js.map"
+    "main.5728b368.css.map": "/My-Portfolio-Website/static/css/main.5728b368.css.map",
+    "main.2f28f687.js.map": "/My-Portfolio-Website/static/js/main.2f28f687.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5b720dc.css",
-    "static/js/main.11f0fca6.js"
+    "static/css/main.5728b368.css",
+    "static/js/main.2f28f687.js"
   ]
 }
