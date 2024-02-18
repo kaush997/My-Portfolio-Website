@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -43,10 +42,7 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                I'm all ears for your feedback, and if my skills align with your needs, feel free to get in touch. Let's make things happen!
-                </p>
+                
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -69,8 +65,8 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex flex-col gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
+                <h2 className="text-base uppercase font-titleFont mb-4 text-titleCol">
+                  Find me on
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
